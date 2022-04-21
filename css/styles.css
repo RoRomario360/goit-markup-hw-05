@@ -141,11 +141,17 @@ img {
   display: flex;
   padding: 32px 0;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-tel {
   display: flex;
   padding: 32px 0;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav-list .item {
